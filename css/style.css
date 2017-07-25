@@ -272,15 +272,18 @@ textarea {
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
   color: #ffffff;
+
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
+	
   background: transparent;
 }
 
 .sf-menu ul li {
+	
   background: transparent;
 }
 
@@ -1166,12 +1169,13 @@ Components
 }
 
 .btn-outline {
-  border: 2px solid #eaeaea !important;
+  
+  background: #f86942 !important;
   background: transparent;
-  color: #2a2e37;
+  color: #ffffff;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
-  border: 2px solid #f86942 !important;
+  border: 2px solid #eaeaea !important;
   background: #f86942 !important;
   color: #ffffff;
 }
@@ -1771,6 +1775,10 @@ a > img.fh5co-align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.home:hover {
+	color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
